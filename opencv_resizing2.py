@@ -16,5 +16,3 @@ print(resized_img.shape)
 cv2.imshow('img', img)
 cv2.imshow('resized_img', resized_img)
 cv2.waitKey(0)
-
-# Now, I do get both images, but they are exactly the same size. No resizing occurred, and I don't know why! 
